@@ -16,20 +16,47 @@ body {
     margin: 0 auto;
 }
 
+.logo {
+    margin-left: -50px;
+}
+
+
 .flex {
     display: flex;
 }
+
+.logo img,
+.logo-footer img {
+    width: 250px;
+    height: 280px;
+   }
+
+
 
 .btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00FF08;
-    border: 0;
+    background-color: #00008B;
+    border: 0;  
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    color: white
 }
+
+.btn-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Define o espaçamento entre os ícones */
+}
+
+.btn-social a { 
+    text-decoration: none;
+    display: inline-block;
+}
+
 
 h2.titulo {
     color: #fff;
@@ -277,6 +304,7 @@ section.sobre .flex {
 }
 
 
+
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
@@ -387,11 +415,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #00FF08;
+    border-top: 2px solid #00008B;
 }
 
 footer .line-footer p i {
-    color: #00FF08;
+    color: white;
     font-size: 22px;
 }
 
