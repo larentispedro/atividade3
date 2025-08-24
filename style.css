@@ -264,6 +264,19 @@ section.sobre .flex {
     transition: .2s;
 }
 
+.btn-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Define o espaçamento entre os ícones */
+}
+
+.btn-social a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
