@@ -57,6 +57,8 @@ header a:hover {
 
 header nav ul{
     list-style-type: none;
+    display: flex;
+    gap: 70px; 
 }
 
 header nav ul li{
