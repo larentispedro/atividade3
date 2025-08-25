@@ -31,6 +31,11 @@ body {
     transition: .2s;
 }
 
+button:hover{
+    box-shadow: 0px 0px 8px #0101ae;
+    transform: scale(1.05);
+}
+
 /* ESTILO DO CABEÇALHO */
 
 header {
@@ -66,11 +71,6 @@ header nav ul li{
    padding: 0 4px;
 }
 
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px #0101ae;
-    transform: scale(1.05);
-}
-
 /* ESTILO DO TOPO DO SITE */
 
 section.topo-do-site{
@@ -101,7 +101,7 @@ section.topo-do-site .flex{
 .topo-do-site .img-topo-site img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 @keyframes flutuar{
@@ -111,5 +111,52 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* ESTILO DO SOBRE */
+section.sobre{
+    padding: 100px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;  
+
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #00008B;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #00008B;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .2s;
+}
+
+.sobre .img-sobre img{
+    border-radius: 15%;
 }
 
