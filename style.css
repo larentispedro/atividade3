@@ -62,7 +62,7 @@ header a{
     color: #7d7d7d;
     text-decoration: none;
     display: inline-block;
-    transition: .5  s;
+    transition: .5s;
 }
 
 header a:hover {
@@ -173,7 +173,7 @@ section.sobre .flex{
 /* ESTILO DO PORTFÓLIO */
 section.portfolio{
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff4cfff4c;
+    box-shadow: 0 0 40px 10px #ffffff4c;
 }
 
 section.portfolio .flex{
@@ -191,23 +191,23 @@ section.portfolio .flex{
     position: relative;   
 }
 
-    .overlay{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #00008B;
-        border-radius: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        font-weight: 600;
-        color: white;
-        transition: .5s;
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00008B;
+     border-radius: 40px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+     font-size: 24px;
+    font-weight: 600;
+    color: white;
+    transition: .5s;
     }
     
-    .overlay:hover{
-        background-color: #05054b;
-    }
+.overlay:hover{
+    background-color: #05054b;
+}
