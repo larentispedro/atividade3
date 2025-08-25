@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -156,7 +156,7 @@ section.sobre .flex{
 
 .sobre .txt-sobre .btn-social button{
     width: 60px;
-    width: 60px;
+    height: 60px;
     border-radius: 30px;
     border: none;
     background-color: #00008B;
