@@ -39,6 +39,7 @@ h2.titulo span {
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    color: white;
 }
 
 button:hover, form .btn-enviar input:hover{
@@ -164,6 +165,7 @@ section.sobre .flex{
     cursor: pointer;
     margin: 0 10px;
     transition: .2s;
+    color: white;
 }
 
 .sobre .img-sobre img{
