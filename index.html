@@ -19,21 +19,21 @@
     <header>
         <div class="interface">
              <div class="logo">
-               <a href="#">
+               <a href="#inicio">
                     <img src="images/logo.png" alt="Logo do site">
                 </a>
              </div><!--logo-->
 
              <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
              </nav>
 
              <div class="btn-contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
              </div>
@@ -41,7 +41,8 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <!-- INÍCIO -->
+        <section id="inicio" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
@@ -49,7 +50,7 @@
                         <p>Acredito que o aprendizado é um processo que nunca termina. Cada desafio, cada projeto e cada experiência representam uma oportunidade de expandir meus conhecimentos e aprimorar minhas habilidades. Estou sempre em busca de evoluir, explorando novas ideias, tecnologias e formas de criar soluções criativas e eficientes. Para mim, estar em constante aprendizado significa não apenas crescer como profissional, mas também como pessoa, preparado para enfrentar novos caminhos e transformar obstáculos em conquistas.</p>
                         
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#contato">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -62,7 +63,8 @@
             </div><!--interface-->
         </section><!--topo-do-site-->
 
-        <section class="sobre">
+        <!-- SOBRE -->
+        <section id="sobre" class="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -84,44 +86,48 @@
             </div><!--interface-->
         </section><!--sobre-->
 
-        <section class="portfolio">
-    <div class="interface">
-        <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
-        <div class="flex">
-            <a href="https://larentispedro.github.io/atividade1/" target="_blank">
-                <div class="img-port" style="background-image: url(images/Atividade01.png);">
-                    <div class="overlay">Projeto 1</div>
-                </div>
-            </a>
-            <a href="https://larentispedro.github.io/atividade2/" target="_blank">
-                <div class="img-port" style="background-image: url(images/Atividade02.png);">
-                    <div class="overlay">Projeto 2</div>
-                </div>
-            </a>
-            <a href="https://github.com/larentispedro/atividade3" target="_blank">
-                <div class="img-port" style="background-image: url(images/Atividade03.png);">
-                    <div class="overlay">Projeto 3</div>
-                </div>
-            </a>
-        </div><!--flex-->
-    </div><!--interface-->
+        <!-- PROJETOS -->
+        <section id="projetos" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <a href="https://larentispedro.github.io/atividade1/" target="_blank">
+                        <div class="img-port" style="background-image: url(images/Atividade01.png);">
+                            <div class="overlay">Projeto 1</div>
+                        </div>
+                    </a>
+                    <a href="https://larentispedro.github.io/atividade2/" target="_blank">
+                        <div class="img-port" style="background-image: url(images/Atividade02.png);">
+                            <div class="overlay">Projeto 2</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/larentispedro/atividade3" target="_blank">
+                        <div class="img-port" style="background-image: url(images/Atividade03.png);">
+                            <div class="overlay">Projeto 3</div>
+                        </div>
+                    </a>
+                </div><!--flex-->
+            </div><!--interface-->
         </section><!--portfolio-->
 
-        <section class="formulario">
+        <!-- CONTATO -->
+        <section id="contato" class="formulario">
             <div class="interface">
                 <h2 class="titulo">FALE <span>COMIGO.</span></h2>
 
                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
-                    <input type="text" name="" id="" placeholder="Seu celular:">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <input type="text" placeholder="Seu nome completo:" required>
+                    <input type="text" placeholder="Seu e-mail:" required>
+                    <input type="text" placeholder="Seu celular:">
+                    <textarea placeholder="Sua mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
             </div><!--interface-->
         </section><!--formulario-->
+                    
+    </main>
 
-        <footer>
+    <footer>
             <div class="interface">
                <div class="line-footer">
                 <div class="flex">
@@ -129,20 +135,18 @@
                         <img src="images/logo.png" alt="Logo do site">
                     </div><!--line-footer-->  
                     <div class="btn-social">
-                                <a href="https://www.instagram.com/pedro_larentis" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
-                                <a href="https://github.com/larentispedro" target="_blank"><button><i class="bi bi-github"></i></button></a>
-                                <a href="https://www.linkedin.com/in/pedro-augusto-larentis-maldaner-99a974271" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
-                            </div><!--btn-social-->
-                        </div><!--flex-->
+                        <a href="https://www.instagram.com/pedro_larentis" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/larentispedro" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/pedro-augusto-larentis-maldaner-99a974271" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
                </div><!--line-footer-->   
 
                <div class="line-footer borda">
                     <p><i class="bi bi-envelope-fill"></i> <a href="mailto:pedro.augusto@unoesc.edu.br">pedro.augusto@unoesc.edu.br</a></p>    
                </div><!--line-footer-->          
-            </div><!--interface--
+            </div><!--interface-->
         </footer>
-                    
-    </main>
 
 </body>
 </html>
