@@ -248,7 +248,7 @@ form textarea{
 
 form .btn-enviar{
     margin-top: 20px;
-    text-align: center
+    text-align: center;
 }
 
 form .btn-enviar input{
@@ -258,6 +258,7 @@ form .btn-enviar input{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+    color: white;
 }
 
 /* ESTILO DO RODAPÉ */
